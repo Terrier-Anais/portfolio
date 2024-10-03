@@ -1,0 +1,33 @@
+h2{
+  font-size: 2em; 
+  color: #1e1717d4; 
+  margin: 10px 2px;
+  padding-left:20px;
+  padding-top: 15px;
+  padding-bottom: 35px;
+  text-align: center;
+}
+.logo-slider {
+    display: flex; 
+    overflow: hidden; /* Cache les logos hors de la zone visible */
+    white-space: nowrap; /* Empêche les logos de se déplacer sur plusieurs lignes */
+  }
+  
+  .logo {
+    width: 100px; /* Ajuste la taille des logos */
+    margin: 0 15px; /* Espacement entre les logos */
+    display: inline-block;
+    animation: slide 10s linear infinite; /* Animation pour le défilement */
+  }
+
+
+  
+  @keyframes slide {
+    0% {
+      transform: translateX(100%); /* Commence à droite */
+    }
+    100% {
+      transform: translateX(-100%); /* Défile vers la gauche et sort */
+    }
+  }
+  
