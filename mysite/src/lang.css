@@ -10,31 +10,30 @@ h2 {
 
 .logo-slider {
   display: flex; 
-  overflow: hidden; /* Cache les logos hors de la zone visible */
-  white-space: nowrap; /* Empêche les logos de se déplacer sur plusieurs lignes */
-  width: 100%; /* S'assure que le conteneur prend toute la largeur disponible */
+  overflow: hidden; 
+  white-space: nowrap; 
+  width: 100%; 
 }
 
 .logo {
-  width: 80px; /* Ajuste la taille des logos pour un meilleur rendu sur mobile */
-  margin: 0 15px; /* Espacement entre les logos */
+  width: 80px; 
+  margin: 0 15px;
   display: inline-block;
-  animation: slide 10s linear infinite; /* Animation pour le défilement */
+  animation: slide 10s linear infinite; 
 }
 
-/* Keyframes pour l'animation de défilement */
 @keyframes slide {
   0% {
-    transform: translateX(100%); /* Commence à droite */
+    transform: translateX(100%); 
   }
   100% {
-    transform: translateX(-100%); /* Défile vers la gauche et sort */
+    transform: translateX(-100%); 
   }
 }
 
-/* Media Queries pour ajuster la taille des logos sur les écrans plus petits */
+
 @media (max-width: 768px) {
   .logo {
-    width: 60px; /* Réduire la taille des logos sur les petits écrans */
+    width: 60px; 
   }
 }

@@ -11,13 +11,13 @@ h3 {
 #projets .wrapper {
   display: flex;
   justify-content: center; 
-  flex-wrap: wrap; /* Permet le retour à la ligne */
+  flex-wrap: wrap; 
   gap: 20px; 
 }
 
 #projets article {
-  flex: 1 1 calc(30% - 20px); /* Ajuste à 30% pour trois colonnes sur les écrans larges */
-  max-width: 500px; /* Limite la largeur maximale */
+  flex: 1 1 calc(30% - 20px); 
+  max-width: 500px; 
   height: 270px;
   margin-bottom: 20px;
   border-radius: 10px;
@@ -31,15 +31,15 @@ h3 {
 } 
 
 #projets .article h4 {
-  background-color: white; /* Arrière-plan blanc */
-  color: black; /* Couleur du texte */
-  border-bottom: 1px solid #ddd; /* Bordure inférieure */
-  padding: 10px 20px; /* Espacement interne */
-  text-transform: uppercase; /* Mettre le texte en majuscule */
+  background-color: white; 
+  color: black; 
+  border-bottom: 1px solid #ddd; 
+  padding: 10px 20px; 
+  text-transform: uppercase; 
   margin-bottom: 20px;
-  text-align: center; /* Centrer le texte */
-  border-radius: 5px; /* Coins arrondis */
-  display: inline-block; /* Affichage en ligne pour que l'arrière-plan s'adapte au texte */
+  text-align: center; 
+  border-radius: 5px; 
+  display: inline-block; 
 }
 
 
@@ -79,21 +79,21 @@ h3 {
   background-image: url("./src/images/projet2.png");
 }
 
-/* Media Queries pour rendre les projets plus responsives */
+
 @media (max-width: 768px) {
   #projets article {
-      flex: 1 1 calc(100% - 20px); /* 100% de la largeur sur les petits écrans */
+      flex: 1 1 calc(100% - 20px);
   }
 
   .projet1, .projet2, .projet3 {
-      width: 100%; /* Prend toute la largeur disponible sur mobile */
-      height: 250px; /* Ajuste la hauteur pour mobile */
+      width: 100%; 
+      height: 250px; 
   }
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
   #projets article {
-      flex: 1 1 calc(45% - 20px); /* 2 colonnes sur tablettes */
+      flex: 1 1 calc(45% - 20px); 
   }
 }
 

@@ -13,31 +13,30 @@ code {
 
 footer {
   display: flex;
-  flex-direction: column; /* Changer en colonne pour les petits écrans */
+  flex-direction: column; 
   align-items: center;
-  justify-content: center; /* Centrer le contenu */
+  justify-content: center; 
   background-color: #476582;
   padding: 10px 20px;
-  text-align: center; /* Centrer le texte */
+  text-align: center; 
 }
 
-/* Styles pour les icônes et les liens */
+
 .lien-icone {
-  margin: 0 10px; /* Espacement horizontal */
-  display: inline-block; /* Pour que le hover fonctionne correctement */
+  margin: 0 10px; 
+  display: inline-block; 
 }
 
 .lien-icone:hover {
-  opacity: 0.7; /* Légèrement plus visible au survol */
+  opacity: 0.7; 
 }
 
-/* Media Queries pour rendre le footer responsive */
 @media (min-width: 768px) {
   footer {
-    flex-direction: row; /* Revenir à la ligne pour les grands écrans */
+    flex-direction: row;
   }
 
   .lien-icone {
-    margin-left: 20px; /* Plus d'espacement sur les grands écrans */
+    margin-left: 20px;
   }
 }
