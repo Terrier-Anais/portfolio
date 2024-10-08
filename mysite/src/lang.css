@@ -1,6 +1,6 @@
 h2 {
-  font-size: 2em; 
-  color: #1e1717d4; 
+  font-size: 2em;
+  color: #1e1717d4;
   margin: 10px 2px;
   padding-left: 20px;
   padding-top: 15px;
@@ -9,31 +9,42 @@ h2 {
 }
 
 .logo-slider {
-  display: flex; 
-  overflow: hidden; 
-  white-space: nowrap; 
-  width: 100%; 
+  display: flex;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.logo-container {
+  display: flex;
+  animation: slide 200s linear infinite; 
 }
 
 .logo {
-  width: 80px; 
-  margin: 0 15px;
+  width: 80px;
+  margin: 0 30px; 
   display: inline-block;
-  animation: slide 10s linear infinite; 
 }
 
 @keyframes slide {
   0% {
-    transform: translateX(100%); 
+    transform: translateX(0);
   }
   100% {
     transform: translateX(-100%); 
   }
 }
 
+.logo-container::after {
+  content: '';
+  display: flex;
+}
 
 @media (max-width: 768px) {
   .logo {
-    width: 60px; 
+    width: 60px;
+    margin: 0 20px; 
   }
 }
+
+

@@ -10,6 +10,7 @@ header {
   background-color: #476582; 
   border-bottom: 2px solid #000000;
   font-family: 'Lora', cursive;
+  /* flex-wrap: wrap;  */
 }
 
 .pictureMe {
@@ -41,7 +42,21 @@ header {
   text-align: center;
 }
 
+.introduce p {
+  color: #1a1a1a; 
+  font-size: 1.2em; 
+  font-weight: 500; 
+  font-family: 'Lora', serif; 
+  line-height: 1.6; 
+  text-align: justify; 
+  padding: 0 20px;
+}
+
 @media (max-width: 768px) {
+  header {
+    flex-direction: column; 
+  }
+
   .profil {
     font-size: 1.5rem; 
   }
@@ -50,9 +65,13 @@ header {
     font-size: 1.5em;
   }
   .pictureMe{
-    width: 60%; 
-  max-width: 60px; 
+    width: 50%; 
+  max-width: 160px; 
   height: auto; 
+  }
+  .introduce p {
+    font-size: 1em; 
+    padding: 0 10px; 
   }
 }
 

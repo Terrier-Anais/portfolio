@@ -12,7 +12,9 @@ function Proj() {
             <h4>MTB REPAIR 74</h4>
             <p><small>Site vitrine d'un magasin de vélo</small></p>
             <article className="projet1">
-              <Link to="/shopt" className="button-2">Projet 1</Link>
+            <a href="https://terrier-anais.github.io/mtb_repair_74/" className="button-2" target="_blank" rel="noopener noreferrer">
+  Projet 1
+</a>
             </article>
           </div>
 

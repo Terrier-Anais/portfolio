@@ -13,21 +13,35 @@ import sql from "../src/images/sql.png";
 function Lang() {
   return (
     <div>
-      <section>
-        <h2>Mes Langages</h2>
-        <div className="logo-slider">
-          <img src={html} alt="HTML" className="logo" />
-          <img src={css} alt="CSS" className="logo" />
-          <img src={js} alt="JavaScript" className="logo" />
-          <img src={nodejs} alt="nodeJs" className="logo" />
-          <img src={react} alt="React" className="logo" />
-          <img src={express} alt="express" className="logo" />
-          <img src={sql} alt="sql" className="logo" />
-          <img src={postgresql} alt="postgresql" className="logo" />
-          <img src={git} alt="git" className="logo" />
+    <section>
+      <h2>Mes Langages</h2>
+      <div class="logo-slider">
+        <div class="logo-container">
+       
+          <img src={html} alt="HTML" class="logo" />
+          <img src={css} alt="CSS" class="logo" />
+          <img src={js} alt="JavaScript" class="logo" />
+          <img src={nodejs} alt="nodeJs" class="logo" />
+          <img src={react} alt="React" class="logo" />
+          <img src={express} alt="express" class="logo" />
+          <img src={sql} alt="sql" class="logo" />
+          <img src={postgresql} alt="postgresql" class="logo" />
+          <img src={git} alt="git" class="logo" />
+      
+          <img src={html} alt="HTML" class="logo" />
+          <img src={css} alt="CSS" class="logo" />
+          <img src={js} alt="JavaScript" class="logo" />
+          <img src={nodejs} alt="nodeJs" class="logo" />
+          <img src={react} alt="React" class="logo" />
+          <img src={express} alt="express" class="logo" />
+          <img src={sql} alt="sql" class="logo" />
+          <img src={postgresql} alt="postgresql" class="logo" />
+          <img src={git} alt="git" class="logo" />
         </div>
-      </section>
-    </div>
+      </div>
+    </section>
+  </div>
+  
   );
 }
 
