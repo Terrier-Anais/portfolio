@@ -2,7 +2,7 @@ h3 {
   font-size: 2em; 
   color: #1e1717d4; 
   margin: 10px 2px;
-  padding-left: 20px;
+  /* padding-left: 20px; */
   text-align: center;
   padding-top: 30px;
   padding-bottom: 35px;
@@ -25,7 +25,6 @@ h3 {
 
 .overlay {
   padding: 20px;
-  border-radius: 10px 0 0 10px;
   text-align: center;
   margin: 12px;
 } 
@@ -67,8 +66,6 @@ h3 {
   border-radius: 10px;
   width: 500px; 
   height: 400px; 
-  margin: 20px; 
-  padding: 0px; 
 }
 .projet1{
   background-image: url("./src/images/projet1.png");
@@ -81,9 +78,9 @@ h3 {
 
 
 @media (max-width: 768px) {
-  #projets article {
-      flex: 1 1 calc(100% - 20px);
-  }
+   #projets article {
+       flex: 1 1 calc(100% - 20px); 
+   }
 
   .projet1, .projet2, .projet3 {
       width: 100%; 

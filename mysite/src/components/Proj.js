@@ -22,7 +22,7 @@ function Proj() {
             <h4>On the road again</h4>
             <p><small>Site de stockage de photo de voyage</small></p>
             <article className="projet2">
-              <Link to="/shopg" className="button-2">Projet 2</Link>
+              <Link to="/" className="button-2">En cours ...</Link>
             </article>
           </div>
           {/* <div className="overlay">
