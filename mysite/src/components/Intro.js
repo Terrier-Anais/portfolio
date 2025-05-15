@@ -12,7 +12,7 @@ function Intro(){
             </div>
             <div className="introduce">
                 <p>
-                "À la recherche d'un poste dans le développement web, je suis autonome, polyvalente et très motivée pour relever de nouveaux défis."
+                "En préparation d’une formation CDA, je recherche une alternance d’un an pour approfondir mes compétences en développement web. Curieuse, adaptable et impliquée, je suis prête à m’investir dans des projets concrets et ambitieux"
                 </p>
             </div>
         </div>
